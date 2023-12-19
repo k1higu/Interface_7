@@ -1,9 +1,5 @@
-#include <QCoreApplication>
+#include <QApplication>
 #include <QDebug>
-#include "bigint.hpp"
-#include <string>
-#include <iostream>
-#include "mycode.h"
 #include "form.h"
 
 // 0. Положить проект в git, дописать код в form.cpp,
@@ -19,7 +15,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-  QCoreApplication app(argc, argv);
+  QApplication app(argc, argv);
 
 
   //hello(cin, cout);
